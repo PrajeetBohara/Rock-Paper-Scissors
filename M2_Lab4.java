@@ -18,7 +18,7 @@ public class M2_Lab4 {
                      + "\nFinally, at the end of the three rounds, it will display a final score board.";
         
         JOptionPane.showMessageDialog(null, Intro, 
-                "Play \"Rock, Paper, Scissors\"                                                                                                                           Jael Ruiz;  Prajeet Bohara",
+                "Play \"Rock, Paper, Scissors\"                                                                                                                           JPrajeet Bohara",
                 0,icon);
         
         int round = 0;
@@ -34,7 +34,7 @@ public class M2_Lab4 {
             String[] choices = {"Rock", "Paper", "Scissors"};
 
             int choice = JOptionPane.showOptionDialog(null, prompt, 
-                    "Play \"Rock, Paper, Scissors\"                    Jael Ruiz;  Prajeet Bohara",
+                    "Play \"Rock, Paper, Scissors\"                    Prajeet Bohara",
                     0, 0, icon, choices, choices[0]);
 
             String player_choice = "";
@@ -91,7 +91,7 @@ public class M2_Lab4 {
             {
                 resultsAccumulator += "<h2>Paper wraps rock!</h2> <h2>You WIN!</h2>";
                 JOptionPane.showMessageDialog(null, resultsAccumulator, 
-                    "Rock, Paper, Scissors                                  Jael Ruiz; Prajeet Bohara",
+                    "Rock, Paper, Scissors                                  Prajeet Bohara",
                     0, paperWrapsRockIcon);
                 player_score = player_score + 1;
             }
@@ -99,7 +99,7 @@ public class M2_Lab4 {
             {
                 resultsAccumulator += "<h2>Rock crushes scissors!</h2> <h2>You LOSE!</h2>";
                 JOptionPane.showMessageDialog(null, resultsAccumulator, 
-                    "Rock, Paper, Scissors                                        Jael Ruiz; Prajeet Bohara",
+                    "Rock, Paper, Scissors                                        Prajeet Bohara",
                     0, rockCrushesScissorsIcon);
                 computer_score = computer_score + 1;
             }
@@ -107,7 +107,7 @@ public class M2_Lab4 {
             {
                 resultsAccumulator += "<h2>Scissors cut paper!</h2> <h2>You WIN!</h2>";
                 JOptionPane.showMessageDialog(null, resultsAccumulator, 
-                    "Rock, Paper, Scissors                   Jael Ruiz; Prajeet Bohara",
+                    "Rock, Paper, Scissors                   Prajeet Bohara",
                     0, scissorsCutPaperIcon);
                 player_score = player_score + 1;
             }
@@ -115,7 +115,7 @@ public class M2_Lab4 {
             {
                 resultsAccumulator += "<h2>Paper wraps rock!</h2> <h2>You LOSE!</h2>";
                 JOptionPane.showMessageDialog(null, resultsAccumulator, 
-                    "Rock, Paper, Scissors                                  Jael Ruiz; Prajeet Bohara",
+                    "Rock, Paper, Scissors                                  Prajeet Bohara",
                     0, paperWrapsRockIcon);
                 computer_score = computer_score + 1;
             }
@@ -123,7 +123,7 @@ public class M2_Lab4 {
             {
                 resultsAccumulator += "<h2>Rock crushes scissors!</h2> <h2>You WIN!</h2>";
                 JOptionPane.showMessageDialog(null, resultsAccumulator, 
-                    "Rock, Paper, Scissors                                        Jael Ruiz; Prajeet Bohara",
+                    "Rock, Paper, Scissors                                        Prajeet Bohara",
                     0, rockCrushesScissorsIcon);
                 player_score = player_score + 1;
             }
@@ -131,13 +131,13 @@ public class M2_Lab4 {
             {
                 resultsAccumulator += "<h2>Scissors cut paper!</h2> <h2>You LOSE!</h2>";
                 JOptionPane.showMessageDialog(null, resultsAccumulator, 
-                    "Rock, Paper, Scissors                   Jael Ruiz; Prajeet Bohara",
+                    "Rock, Paper, Scissors                   Prajeet Bohara",
                     0, scissorsCutPaperIcon);
                 computer_score = computer_score + 1;
             }
             
             JOptionPane.showMessageDialog(null,"At the end of this round, \nyour score is "+player_score+" and \nthe computer's score is "+computer_score+".",
-                    "End of Round Results          Jael Ruiz; Prajeet Bohara",
+                    "End of Round Results          Prajeet Bohara",
                     0, icon);
 
             round += 1;
@@ -149,7 +149,7 @@ public class M2_Lab4 {
                           + "<h2>Wins: " +player_score+ "</h2>"
                           + "<h2>Loses: "+computer_score+"</h2>"
                           + "<h2>Ties: "+ties+"</h2>";
-        JOptionPane.showMessageDialog(null, scoreBoard, "Score Board                            Jael Ruiz; Prajeet Bohara", 1, finalScoreIcon);
+        JOptionPane.showMessageDialog(null, scoreBoard, "Score Board                            Prajeet Bohara", 1, finalScoreIcon);
         
         JOptionPane.showMessageDialog(null, "<html><h2>Thanks for playing!</h2> Program is now over.", 
                 "End of Game                          Jael Ruiz; Prajeet Bohara", 1,finalScoreIcon);
