@@ -1,5 +1,5 @@
 /*
- * Lab 4: Rock, Paper, Scissors Game
+ * Lab 4: Rock, Paper, Scissors Game (No GUI)
  * Prajeet Bohara
  * 3/12/23
  */
